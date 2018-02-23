@@ -13,7 +13,7 @@ public class BaseUITest {
     static WebDriver driver = new ChromeDriver();
 
     public static void getBrowser() {
-        System.setProperty("webdriver.chrome.driver", "/Users/mandeep/Documents/vsobuildpagerefresh/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/Users/mandeep/Documents/vsobuildpagerefresh/chromedriver");
         waitSeconds(5);
     }
 
