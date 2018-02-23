@@ -27,6 +27,7 @@ public class VSO_BuildPageRefreshTest extends BaseUITest{
         Assert.assertEquals(url, buildPageUrl,"User is not on Build page");
         waitSeconds(300);
         driver.quit();
+        System.out.println("Test Finished");
 
     }
 }
