@@ -5,6 +5,7 @@
 public class LoginBlock extends VSO_BuildPageRefreshTest{
     private static String userName = "mkaur@pointcare.com";
     private static String password = "Pointcare#123";
+    private static String password = "";
 
     public static void login_to_visual_studio() {
         System.out.println("Navigate to Visual Studio's site");
