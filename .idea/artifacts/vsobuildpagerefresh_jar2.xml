@@ -1,7 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="vsobuildpagerefresh:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/vsobuildpagerefresh_jar</output-path>
+  <artifact type="jar" name="vsobuildpagerefresh:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/vsobuildpagerefresh_jar2</output-path>
     <root id="archive" name="vsobuildpagerefresh.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
       <element id="module-output" name="vsobuildpagerefresh" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-common/9.4.3.v20170317/websocket-common-9.4.3.v20170317.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar" path-in-jar="/" />
